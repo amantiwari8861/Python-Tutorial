@@ -5,9 +5,11 @@
 4. nested if
 """
 
-# age = int(input("Enter your age : "))
-# if age >=18: #true block
-#  print("You are eligible to vote")
+age = int(input("Enter your age : "))
+if age >=18: #true block
+    print("You are eligible to vote")
+#  print("hii") #error space are not same
+# print("hii") #out of the if block
 
 # if age >= 18:  # true block
 #     print("You are eligible to vote")
@@ -16,16 +18,16 @@
 
 marks = int(input("Enter your marks : "))
 
-# if marks>=90 and marks<=100:
-#     print("u got admission in DU")
-# elif marks>=80:
-#     print("u got admission in IPU")
-# elif marks>=60:
-#     print("u got admission in private university")
-# elif marks>=33:
-#     print("u got admission in ignou")
-# else:
-#     print("sell tea!")
+if marks>=90 and marks<=100:
+    print("u got admission in DU")
+elif marks>=80 and marks<90:
+    print("u got admission in IPU")
+elif marks>=60 and marks<80:
+    print("u got admission in private university")
+elif marks>=33 and marks<60:
+    print("u got admission in ignou")
+else:
+    print("sell tea!")
 
 
 if marks >= 90 and marks <= 100:

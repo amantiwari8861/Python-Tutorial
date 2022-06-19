@@ -1,7 +1,3 @@
-''' num1="10"
-num2="20"
-print(num1+num2)
- '''
 # volume of sphere = 4/3 * pi * r^3
 pi=3.14
 radius=float(input("Enter radius: "))

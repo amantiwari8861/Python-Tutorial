@@ -14,29 +14,3 @@
 
 # list of keywords
 # print(keyword.kwlist)
-
-# ----------------------------------------------------------------
-#identity operators
-# name="Aman Tiwari"
-# name2="Aman Tiwari"
-# print(name is name2)
-# print(name is not name2)
-
-# membership operators
-# name3="hello everyone"
-# print('no' in name3)
-# print('hello' not in name3)
-
-#ternary operator (conditional operator)
-
-# num=int(input("enter num1 \n")) #\n for new line
-# num=int(input("enter num1 \n")) #\n for new line
-# num2=int(input("enter num2 \t")) #\t for tabular space (tab)
-
-# min=num if num<num2 else num2
-# print("the minimun is ",min)
-# max=num if num>num2 else num2
-# print("the maximum is ",max)
-
-print("hello",end="\t")
-print("h","e","l",sep="@")
