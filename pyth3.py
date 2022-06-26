@@ -1,79 +1,8 @@
-# a=10
-# b=20
-# print(a+b)
-# print(a-b)
-# print(a*b)
-# print(a/b)
-# print(a//b)
-# print(a**b)
-# print(a%b)
-# Arithmetic operator
+a=15
+b=2
 
-
-
-
-
-
-
-
-
-# a,b=10,11
-# print(a)
-# print(b)
-# a|=b
-# print(a)
-# =
-# +=
-# -=
-# *=
-# **=
-# /=
-# //=
-# %=
-# &=
-# |=
-# ^=
-# >>=
-# <<=
-
-
-
-
-
-
-
-
-
-
-
-
-
-# comparison operators
-# ==
-# !=
-# >
-# >=
-# <
-# <=
-# a=b=20
-# print(a==b)
-# print(a!=b)
-# print(a>b)
-# print(a>=b)
-# print(a<=b)
-# print(a<b)
-
-
-
-
-
-
-
-
-
-
-
-
+print("floor division :",a//b)
+print(" power :",a**b)
 
 # logical operators
 # and
@@ -100,9 +29,9 @@
 # membership operators
 # in
 # not in
-a=["a","b",1,2]
-print(a)
-print("a" in a)
-print("a1" in a)
-print("a" not in a)
-print("a1" not in a)
+# a=["a","b",1,2]
+# print(a)
+# print("a" in a)
+# print("a1" in a)
+# print("a" not in a)
+# print("a1" not in a)
