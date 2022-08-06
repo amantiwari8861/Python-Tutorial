@@ -9,6 +9,6 @@ nterms = int(input("Enter the terms? "))  # take input from the user
 if nterms <= 0:  # check if the number is valid 
    print("Please enter a positive integer")  
 else:  
-   print("Fibonacci sequence:")  
+   print("Fibonacci Series:")  
    for i in range(nterms):  
-       print(FibRecursion(i))
+       print(FibRecursion(i),end=" ")
