@@ -1,4 +1,3 @@
-import constant
 print("hello python")
 #single line comment
 """
@@ -18,10 +17,6 @@ d=True #error T must be capital
 # print(a+c+b)
 print(type(a))
 print(type(d))
-
-constant.PI=34
-
-print(constant.PI)
 
 x,y,z=10,"hii",17.5
 # x=y=z="same"
