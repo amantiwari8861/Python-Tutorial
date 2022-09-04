@@ -4,16 +4,6 @@ print('hello everyone')
 
     # print("Hello Aman Sir") #error bcz there is space before print
 
-'''print("hello everyone")
-print("hello everyone")
-print("hello everyone")
-print("hello everyone")
-print("hello everyone")
-print("hello everyone")'''
-
-"""print("hello everyone")
-print("hello everyone")
-print("hello everyone")
-print("hello everyone")
-print("hello everyone")
-print("hello everyone")"""
+print("hello",end="\t")
+print("hiii")
+print("h","e","l",sep="@")

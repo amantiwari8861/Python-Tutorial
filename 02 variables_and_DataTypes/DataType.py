@@ -15,3 +15,19 @@ print(type(num5))
 num6=3.167667788788456
 print(num6)
 print(type(num6))
+
+
+#or
+
+i=10#int
+print(i,"this is int",type(i))
+
+s="ten"#string
+print(s,"this is string",type(s))
+
+f=10.10#float
+print(f,"this is float",type(f))
+
+b=True#bool
+print(b,"this is bool",type(b))
+

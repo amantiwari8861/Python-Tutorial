@@ -14,11 +14,11 @@
 # print("the result is ",num3)
     
     #relational operator eg. <,>, <=,>=,== ,!=
-var1=340
-var2=56
+# var1=340
+# var2=56
 # res=var1<var2
 # res=var1>var2
-# res=12<=12   #true
+# res=12<=12   #True
 # res=12>=12
 # res=15==10
 # res=15==15
@@ -31,12 +31,15 @@ var2=56
 
 #and (both the conditions must be satisfied)
 
-# print( 10>5 and 10<20 ) # true and true -> true
-# print( 10>5 and 10<5 ) # true and false -> false
-# print(not 10>5) # not true -> false
+# print( 10>5 and 10<20 ) # True and True -> True
+# print( 10>5 and 10<5 ) # True and False -> False
 
-# #or (at least one of the conditions must be satisfied)
-# print( 10>5 or 10<5 ) # true or false -> true
+# # #or (at least one of the conditions must be satisfied)
+# print( 10>5 or 10<5 ) # True or False -> True
+
+# # #not (complement of the output)
+# print(not 10>5) # not True -> False
+
 
 #assignment operators (shorthand operators)
 # eg. =,+=, -=, *=, /=, %=, **=
@@ -50,10 +53,10 @@ var2=56
 #bitwise operators
 # eg. &, |, ^, >>, <<
 
-print(10&7)
+# print(10&7)
 # 10 -> 1010
 # 7 ->  0111
-#10&7 -> 0010 -> 2
+# 10&7 -> 0010 -> 2
 
 # print(10|7)
 # 10 -> 1010
@@ -66,18 +69,18 @@ print(10&7)
 # 10^7 -> 1101 -> 13
 
 
-print(10<<1) #left shift
-# # 10*2
-print(10<<2) #left shift
-# # 10*2*2
-print(10<<3) #left shift
-# 10*2*2*2
+# print(10<<1) #left shift
+# # # 10*2
+# print(10<<2) #left shift
+# # # 10*2*2
+# print(10<<3) #left shift
+# # 10*2*2*2
 
-print(128>>1) #right shift
-# 128/2 -> 64
-print(128>>2) #right shift
-# (128/2)/2 -> 32
-print(128>>3) #right shift
+# print(128>>1) #right shift
+# # 128/2 -> 64
+# print(128>>2) #right shift
+# # (128/2)/2 -> 32
+# print(128>>3) #right shift
 # ((128/2)/2)/2 -> 16
 # ----------------------------------------------------------------
 #identity operators
@@ -88,19 +91,18 @@ print(128>>3) #right shift
 
 # membership operators
 # name3="hello everyone"
-# print('no' in name3)
-# print('hello' not in name3)
+# print('no' in name3)  #False
+# print('no' not in name3)  #True
+# print('hello' not in name3)  #False
 
 #ternary operator (conditional operator)
 
 # num=int(input("enter num1 \n")) #\n for new line
-# num=int(input("enter num1 \n")) #\n for new line
-# num2=int(input("enter num2 \t")) #\t for tabular space (tab)
+num=int(input("enter num1 \n")) #\n for new line
+num2=int(input("enter num2 \t")) #\t for tabular space (tab)
 
-# min=num if num<num2 else num2
-# print("the minimun is ",min)
-# max=num if num>num2 else num2
-# print("the maximum is ",max)
+min=num if num<num2 else num2
+print("the minimun is ",min)
 
-# print("hello",end="\t")
-# print("h","e","l",sep="@")
+max=num if num>num2 else num2
+print("the maximum is ",max)

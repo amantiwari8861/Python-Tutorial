@@ -1,16 +1,3 @@
-# num=10
-# print(num)
-# num2=20
-# num3=num+num2
-# print(num3)
-
-num,num2,num3 =17,56,89.5
-
-# print(num)
-# print(num2)
-# print(num3)
-print("the value of num2=",num2," and num3 ki value ",num3," hai")
-
 # num=56   #valid name
 # print(num)
 
