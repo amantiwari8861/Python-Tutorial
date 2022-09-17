@@ -24,4 +24,3 @@ print(min)
 # eg. //
 # print(10//3)
 # print(10," is added with ",5," is \t",10+5)
-
