@@ -10,8 +10,8 @@ while i<= 10:
     # i=i+1
     i += 1
 else:
-    print(" i's value exceeds from 10 i.e i =",i)
- """
+    print(" i's value exceeds from 10 i.e i =",i) """
+
 
 # Loop control statements
 #break
@@ -20,13 +20,25 @@ while(a <= 100):
     print("a =",a)
     a+=1
     if a==50:
-        break """
+        break  """
 
 #continue
-a=0
+""" a=0
 while(a < 10):
     a+=1
     if a==5:
         print(" skipping the 5th step")
         continue
-    print("a =",a)   
+    print("a =",a)   """ 
+
+#pass
+
+# b=2
+# while b<10:
+#     pass
+#     b+=1
+
+
+n = 10
+for i in range(n):
+ pass

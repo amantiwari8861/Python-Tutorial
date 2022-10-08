@@ -34,10 +34,10 @@
 #     print(" i = ",i)
 
 
-fruits=["Mango","Apple","etc"]
+# fruits=["Mango","Apple","etc"]
 
 # for f in fruits:
 #     print(f)
 
-for i in range(2):
-    print(fruits[i])
+# for i in range(2):
+#     print(fruits[i])
