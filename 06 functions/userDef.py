@@ -1,7 +1,9 @@
-# def greet():
-#     print("Hello Aman sir!")
+def greet():
+    print("Hello Aman sir!")
 
-# greet()
+greet()
+greet()
+
 
 # c=a+b  #error
 # a=10

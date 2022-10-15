@@ -7,8 +7,8 @@ while(i<=power):
     i+=1
 
 print("the power is ",sum)
-
-print("using math.pow() ",pow(num,power))
+result1=pow(num,power)
+print("using math.pow() ",result1)
 print("using math.pow() ",pow(5,3))
 print("using math.pow() ",pow(3,4))
 print("using math.pow() ",pow(2,8))
