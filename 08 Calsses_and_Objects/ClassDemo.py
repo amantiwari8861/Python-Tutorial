@@ -15,24 +15,25 @@
 
 # Object : instance of class 
 
-
-class Car:
-    model1="Bugati veygon"
-
-    def showDetails(self):
-        print("my car is ",self.model1)
-
-
-# a=10
+a=10
 # b="hii"
 # bcz python is dynamically types programming language
+# print(type(a))
 # print(type(50))
 # print(type("Hello"))
 # here 50 is a object of int class and "Hello" is object of str class
 
-anujKiCar=Car()
-anujKiCar.showDetails()
+class Car:
+    model1="Bugati veygon"
 
+#     def showDetails(self):
+#         print("my car is ",self.model1)
 
+car1=Car()
+# car1.showDetails()
+print(car1.model1)
 
-
+car2=Car()
+car2.model1="audi Q3"
+# car2.showDetails()
+print(car2.model1)
