@@ -33,6 +33,6 @@ class Ticket:
 
 p1=Ticket()
 p1.booking()
-# p1.booking()
+p1.booking()
 p1.status()
 p1.print()

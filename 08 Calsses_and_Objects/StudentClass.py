@@ -1,15 +1,16 @@
 class Student:
-    # id  #instance variables
+    id #instance variables
     institute="Mega"  #instance variables
     marks=0 #instance variables
     def __init__(self,name,marks,stid): #parametrized constructor
         print("parameterized constructor called")
+        self.id=100
         self.name=name
         self.marks=marks
         self.stid=stid
 
     def showDetails(self):
-        print("the name is ",self.name,"id is ",self.stid,"marks is",self.marks,"institute is ",self.institute)
+        print("id ",self.id,"the name is ",self.name,"stid is ",self.stid,"marks is",self.marks,"institute is ",self.institute)
 
 
 # st1=Student()  #creted an object (instance of a class)
