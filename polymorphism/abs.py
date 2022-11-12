@@ -1,6 +1,7 @@
 class Car():   
     def mileage(self):   
-        print("Car")  
+        # print("Car")  
+        pass #if u don't want to give the body of any block
   
 class Tesla(Car):   
     def mileage(self):   
@@ -25,5 +26,6 @@ r.mileage()
   
 s = Suzuki()   
 s.mileage()   
+
 d = Duster()   
 d.mileage()  

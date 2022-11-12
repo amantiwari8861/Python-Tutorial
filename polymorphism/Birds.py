@@ -15,13 +15,9 @@ os=Ostrich()
 pig=Pigeon()
 b=Bird()
 
+# os.fly()
+# pig.fly()
+# b.fly()
 
-os.fly()
-pig.fly()
-b.fly()
-
-
-
-
-
-
+for bird in (os,pig,b):
+    bird.fly()
