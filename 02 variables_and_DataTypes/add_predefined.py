@@ -13,5 +13,5 @@ print(type(num3))
 print("the sum of num1 and num2 is ",num3)
 #or
 print("the sum of ",num1," and ",num2," is ",num3)
-
+# or
 print("the sum of "+str(num1)+" and "+str(num2)+" is "+str(num3))
