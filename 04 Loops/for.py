@@ -1,6 +1,6 @@
 # for in 
 # for i in range(10) :
-#     print(" hello aman ",i)
+#     print(" hello aman",i)
 
 # for in 
 # for i in range(3,10) :
@@ -30,10 +30,14 @@
 #     print(3," X ",i,"=",3*i)
 
 # name="Aman Tiwari"
-# for i in name:
-#     print(" i = ",i)
+# for ch in name:
+#     print(" character = ",ch)
 
+#decreasing order
+for i in range(10,0,-1):
+    print(i)
 
+#we will study this later in next chapter
 # fruits=["Mango","Apple","etc"]
 
 # for f in fruits:

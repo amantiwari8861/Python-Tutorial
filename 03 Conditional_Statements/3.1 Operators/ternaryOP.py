@@ -7,5 +7,6 @@ num2=int(input("enter num2 \t")) #\t for tabular space (tab)
 min=num if num<num2 else num2
 print("the minimun is ",min)
 
-max=num if num>num2 else num2
-print("the maximum is ",max)
+
+# max=num if num>num2 else num2
+# print("the maximum is ",max)
