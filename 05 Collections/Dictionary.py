@@ -1,8 +1,7 @@
-# d1=dict()
-# print(d1)
-# d2={}
+d2={}
+d1=dict()
 
-# user_details={"name":"Aman","addhar":123456,5:"Five"}
+user_details={"name":"Aman","addhar":123456,5:"Five"}
 # print("the user details is :",user_details)
 
 # print(user_details.get("name"))
@@ -28,7 +27,7 @@
 # user_details.pop(5)
 
 # print(user_details)
-#stack -> last in first out
+# #stack -> last in first out
 # user_details.popitem()
 # print(user_details)
 # user_details.popitem()
@@ -45,10 +44,11 @@
 # for e in user_details:
     # print(e) # for key
     # print(user_details[e]) # for value
-    # print(e,":",user_details[e])    
+    # print(e," = ",user_details[e])    
 
 # for k,v in user_details.items():
-#     print("key :",k," value :",v)
+#     print(k," ",v)
+    # print("key :",k," value :",v)
 
 user_details={
                 "name":"Aman",
@@ -57,7 +57,8 @@ user_details={
                             "state":"UP",
                             "city":"noida",
                             "pincode":201301
-                          }
+                          },
+                "skills":["C","C++","java","python"]
             }
-# print(user_details)
+print(user_details)
 print(user_details["address"]["city"])

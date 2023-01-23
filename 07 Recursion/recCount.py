@@ -6,7 +6,7 @@
 
 # def counting(num):
 #     print("num = ",num)
-#     break
+#     break #SyntaxError: 'break' outside loop
 #     counting(num-1)
 # counting(10)
 

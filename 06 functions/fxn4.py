@@ -2,7 +2,8 @@
 
 def person(item1,item2,item3="milk"):
     print("i am making a dish from ",item1,",",item2,"and",item3)
-    return item1+","+item2+" and "+item3+" dish"
+    return "gaajar ka halwa"
+    # return item1+","+item2+" and "+item3+" dish"
 
 def main():
     print("hello i am main person")

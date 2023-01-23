@@ -11,3 +11,8 @@ print("the volume of sphere is ",volOfSphere(3.2))
 print("the volume of sphere is ",volOfSphere(5))
 print("the volume of sphere is ",volOfSphere(7.2))
 
+# Advantages of Fxn :
+# 1.reusability
+# 2.modularity
+# 3.increase readibiility
+# 4.decrease complexity
