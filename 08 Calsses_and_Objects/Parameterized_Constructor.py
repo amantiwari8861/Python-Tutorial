@@ -1,12 +1,14 @@
 class Building:
-
     # def __init__(self):
     #     print("default constructor")
-    #     self.institute="Mega"
-    institute="Mega"
+    #     self.institute="Niit"
+    institute="Niit"
     def __init__(self,owner):
         self.owner=owner
 
+    def showBuildingDetails(self):
+        print("institute ",self.institute)
+        print("Owner ",self.owner)
     
 # b=Building()
 # b1=Building()
@@ -15,7 +17,8 @@ class Building:
 # b4=Building()
 # print(b.institute)
 
-b8=Building("Chandrajeet Singh")
+b8=Building("Aman Tiwari")
+b8.showBuildingDetails()
 print(b8.institute,"'s owner is ",b8.owner)
 
 # Python does not support explicit multiple constructors, yet there are some ways 
