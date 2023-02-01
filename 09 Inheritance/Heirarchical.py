@@ -28,20 +28,20 @@ class Leopard(cats):
         print("we r big in size and very fast animal")
 
 
-
+print("-----------------Tiger's Property--------------------")
 julie=Tiger()
 julie.mammalProperty()
 julie.catsProperty()
 julie.tigerProperty()
-
+print("-------------------Dog's property-----------------")
 tommy=dogs()
 tommy.mammalProperty()
 tommy.dogsProperty()
-
+print("--------------------Human's Property------------------")
 prashant=Human()
 prashant.mammalProperty()
 prashant.humanProperty()
-
+print("----------------------Cat's Property-------------------")
 c1=cats()
 c1.mammalProperty()
 c1.catsProperty()

@@ -1,29 +1,21 @@
-class Mammals:
-    def mammalProperty(self):
-        print("we give birth to child and we r warm blooded ")
+class Cat:
+    def catsProperty(self):
+        print("we walks on 4 legs and we have a tail and omnivores")
 
-class BlackDog(Mammals):
-    def BlackDogProperty(self):
-        print("we are black in color ")
+class Tiger(Cat):
+    def tigerProperty(self):
+        print("we r big in size and very powerful and national animal of india")
 
-class WhiteDog(Mammals):
-    def WhiteDogProperty(self):
-        print("we are white in color ")
+class Lion(Cat):
+    def lionProperty(self):
+        print("we r big in size and very powerful ")
 
+class Liger(Lion,Tiger):
+    def ligerProperty(self):
+        print("Ligers have a tiger-like striped pattern,They enjoy swimming, which is a characteristic of tigers, and are very sociable like lions. ")
 
-class BlackAndWhiteDog(BlackDog,WhiteDog):
-    def BlackAndWhiteDogProperty(self):
-        print("we are black and white in color ")
-
-
-class GreyDog(BlackAndWhiteDog):
-    def greyDogProperty(self):
-        print("we are grey in color ")
-
-d1=GreyDog()
-d1.mammalProperty()
-d1.BlackDogProperty()
-d1.WhiteDogProperty()
-d1.BlackAndWhiteDogProperty()
-d1.greyDogProperty()
-
+liger1=Liger()
+liger1.catsProperty()
+liger1.lionProperty()
+liger1.tigerProperty()
+liger1.ligerProperty()
