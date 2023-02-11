@@ -1,7 +1,7 @@
 num3=50
 print(num3)
-print("the value of num3=",num3)
-print('the value of num3=',num3)
+# print("the value of num3=",num3)
+# print('the value of num3=',num3)
 print(type(num3))
 
 num4='A'
