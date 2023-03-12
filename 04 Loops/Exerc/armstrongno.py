@@ -11,3 +11,18 @@ if original==sum:
     print("Armstrong no.")
 else:
     print("not an armstrong no.")
+
+
+
+
+
+'''
+    Psuedocode/Dry-run
+
+step 1:
+
+
+
+
+
+'''

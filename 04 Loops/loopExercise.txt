@@ -67,11 +67,14 @@ enter num: 153
 Expected Output :
 153 is an armstrong no.
 
-10.Write a program in python to check whether a number is palindrome or not.
+10.Write a program in python to reverse a number 
 Test Data
-enter num: 12321
+enter num: 123
 Expected Output :
-12321 is palindrome no.
+321 
+num=12345
+revnum=0
+
 
 
 Armstrong :
