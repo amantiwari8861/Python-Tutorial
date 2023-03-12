@@ -29,7 +29,7 @@
 # while(a < 10):
 #     a+=1
 #     if a==5:
-#         print(" skipping the 5th step")
+#         # print(" skipping the 5th step")
 #         continue
 #     print("a =",a)   
 
@@ -41,6 +41,6 @@ while b<10:
     b+=1
 
 
-n = 10
-for i in range(n):
- pass
+# n = 10
+# for i in range(n):
+#  pass

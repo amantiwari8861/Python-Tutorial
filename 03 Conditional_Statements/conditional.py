@@ -10,7 +10,7 @@
 # if age >=18: #true block
 #     print("You are eligible to vote")
 #     print("Thank You Visit Again!")
-# #  print("hii") #error space are not same
+#  print("hii") #error space are not same
 # print("hii i am out of the if block") 
 
 # if age >= 18:  # true block

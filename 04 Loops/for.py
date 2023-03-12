@@ -1,10 +1,14 @@
 # for in 
-# for i in range(10) :
-#     print(" hello aman",i)
+# for k in range(10) :
+#     print(" hello aman",k)
 
 # for in 
 # for i in range(3,10) :
 #     print(" hello aman ",i)
+
+""" # for in """
+# for i in range(3,10,2) :
+#     print(" hello aman ",i) 
 
 # for in else
 # for i in range(2,10) :
@@ -12,9 +16,6 @@
 # else:
 #     print("value of i exceeds from ",i)
 
-""" # for in """
-# for i in range(3,10,2) :
-#     print(" hello aman ",i) 
 
 """ # table of 3 """
 # for i in range(3,31,3) :
@@ -29,19 +30,19 @@
 # for i in range(1,11):
 #     print(3," X ",i,"=",3*i)
 
+#decreasing order
+# for i in range(10,0,-1):
+#     print(i)
+
 # name="Aman Tiwari"
 # for ch in name:
 #     print(" character = ",ch)
 
-#decreasing order
-for i in range(10,0,-1):
-    print(i)
-
 #we will study this later in next chapter
-# fruits=["Mango","Apple","etc"]
+fruits=["Mango","Apple","etc"]
 
 # for f in fruits:
 #     print(f)
 
-# for i in range(2):
-#     print(fruits[i])
+for i in range(2):
+    print(fruits[i])
