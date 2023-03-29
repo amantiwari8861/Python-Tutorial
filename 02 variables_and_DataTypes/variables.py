@@ -1,4 +1,7 @@
+# variable is a special type of containers which is used  to store the data into them
+
 # num=56   #valid name
+# print("num")
 # print(num)
 
 # num value=54 #invalid name because of space in between
@@ -15,3 +18,4 @@
 
 import keyword
 print(keyword.kwlist)
+print("there are ",len(keyword.kwlist)," keywords in python")

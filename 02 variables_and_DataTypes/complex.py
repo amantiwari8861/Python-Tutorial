@@ -1,8 +1,8 @@
-# a=5+2j  # j=v-1  (under root -1)
-# b=2+3j
-# c=a+b
-# print("the result is ",c)
-# print("Real part ",c.real,"Imaginary part",c.imag)
+a=5+2j  # j=v-1  (under root -1)
+b=2+3j
+c=a+b
+print("the result is ",c)
+print("Real part ",c.real,"Imaginary part",c.imag)
 
 # eq1= complex(5,8)
 # print(eq1)
