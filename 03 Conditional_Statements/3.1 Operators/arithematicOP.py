@@ -2,8 +2,8 @@
 
 # binary (bi ->2 )
     #arithematic operator eg. +,-,*,/,**(power),%(mod)
-# num1=2
-# num2=5
+num1=2
+num2=5
 # num3=num1+num2 # 2+5 =7
 # num3=num1-num2 # 2-5 =-3
 # num3=num1*num2 # 2*5 =10
