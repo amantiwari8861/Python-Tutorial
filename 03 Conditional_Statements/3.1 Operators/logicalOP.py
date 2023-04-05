@@ -19,9 +19,12 @@
 
 # Logical or
 
-marks=int(input("enter marks"))
-if marks>=90 or marks<=100:
-    print("Got A1 Grade!!")
+# marks=int(input("enter marks :"))
+
+# if marks>=80  marks<=100: #error
+
+# if marks>=90 or marks<=100:
+#     print("Got A1 Grade!!")
 
 #    case 1: marks=38
 #             38>=90 or 38<=100
@@ -58,3 +61,16 @@ if marks>=90 or marks<=100:
 #             120>=90 and 120<=100
 #             True and False 
 #             False
+
+# salary=80000
+# if not salary>10000:
+#     print("go to tea stall")
+# else:
+#     print("go to russia")
+
+name=input("enter ur name:")
+
+if not name=="aman":
+    print("Hello bro!")
+else:
+    print("Hello Sir!")
