@@ -1,8 +1,8 @@
-# for in 
-# for k in range(10) :
+# for in Loop
+# for k in range(10):
 #     print(" hello aman",k)
 
-# for in 
+# for in Loop
 # for i in range(3,10) :
 #     print(" hello aman ",i)
 
@@ -28,7 +28,22 @@
 #     n=n+1
 
 # for i in range(1,11):
-#     print(3," X ",i,"=",3*i)
+#     print(3," x ",i,"=",3*i)
+
+'''
+    psuedocode(Dry-run)
+
+    Step 1:  i=1
+            3 X 1 = 3
+
+    Step 2: i=2
+            3 X 2 = 6
+    .
+    .
+    .
+    Step 11: i=11
+                loop terminated
+'''
 
 #decreasing order
 # for i in range(10,0,-1):
@@ -39,10 +54,10 @@
 #     print(" character = ",ch)
 
 #we will study this later in next chapter
-fruits=["Mango","Apple","etc"]
+fruits=["Mango","Apple","litchi","pomegranate","etc"]
 
-# for f in fruits:
-#     print(f)
+# for i in fruits:
+#     print(i)
 
-for i in range(2):
+for i in range(3):
     print(fruits[i])
