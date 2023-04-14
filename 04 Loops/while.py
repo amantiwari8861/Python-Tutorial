@@ -1,4 +1,4 @@
-# i=1
+# i=0
 # while i<= 10:
 #     print(" i =",i)
 #     i += 1  # or i=i+1 both same
@@ -17,21 +17,21 @@
 
 # Loop control statements
 #break
-# a=1
+# a=0
 # while(a <= 100):
-#     print("a =",a)
 #     a+=1
+#     print("a ki value =",a,"hai")
 #     if a==50:
 #         break 
 
 #continue
-# a=0
-# while(a < 10):
-#     a+=1
-#     if a==5:
-#         print(" skipping the 5th step")
-#         continue
-#     print("a =",a)   
+a=0
+while(a < 100):
+    a+=1
+    if a%2==0:
+        # print(" skipping the 5th step")
+        continue
+    print("a =",a)   
 
 #pass
 

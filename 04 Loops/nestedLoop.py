@@ -8,10 +8,10 @@
 # *****
 # *****
 
-for i in range(1,5):
-    for j in range(1,6):
-        print("*",end="")
-    print()   # equals to \n
+# for i in range(1,5):
+#     for j in range(1,6):
+#         print("*",end="")
+#     print()   # equals to \n
 
 
 # print("hello",end="")
@@ -33,3 +33,8 @@ for i in range(1,5):
 # ***
 # **
 # *
+
+for row in range(1,6):
+    for col in range(6,row,-1):
+        print("*",end="")
+    print()
