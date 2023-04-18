@@ -9,19 +9,21 @@
 # print(basket)
 # print(numbers)
 
+# print(fruits[0])
+# print(fruits[4])
+# print(fruits[1])
+# print(fruits[-2])
+
+
 # print("the fruits are :")
 # for i in fruits:
 #     print("fruit :",i)
 
 # marks=[59]
-# # marks.append(55)
+# marks.append(55)
 # marks=marks+[67,89,36]
 # print(marks)
 
-# print(fruits[0])
-# print(fruits[4])
-# print(fruits[1])
-# print(fruits[-2])
 # length=len(fruits)
 # print(length)
 # print("Apple" in fruits)
@@ -43,14 +45,13 @@
 # print(fruits)
 # fruits.remove(67)
 # fruits.extend(["banana","chiku"])
-# fruits.reverse()
+# # fruits.reverse()
 # print(fruits)
 # fruits.insert(2,"papaya")
-# fruits.clear()
+# # fruits.clear()
 # fruits[2]="papaya 2.0" # if u insert this in 2nd position in empty list then it will generate error
-# fruits.clear()
+# # fruits.clear()
 # print(fruits)
-
 
 
 

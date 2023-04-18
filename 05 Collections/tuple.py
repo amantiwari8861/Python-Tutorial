@@ -4,7 +4,7 @@
 # tup=()  #creating empty tuple
 # tup=tuple()  #creating empty tuple
 
-# row1=("Aman","abhishek","aman",10,56.78,"aman")
+row1=("Aman","abhishek","aman",10,56.78,"aman")
 
 # print(row1)
 # print(row1[2])
@@ -29,7 +29,7 @@
 
 n2=("sumit 2.0","jatin 2.0")
 l1=["hemant","raghav"]
-# tup4=n2+l1  # error can only concatenate tuple (not "list") to tuple
+# # tup4=n2+l1  # error can only concatenate tuple (not "list") to tuple
 # tup4=(n2,l1)
 # tup4=(n2,tuple(l1))
 tup4=(n2+tuple(l1))
