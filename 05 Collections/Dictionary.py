@@ -1,7 +1,7 @@
-d2={}
-d1=dict()
+# d2={}
+# d1=dict()
 
-user_details={"name":"Aman","addhar":123456,5:"Five"}
+# user_details={"name":"Aman","aadhar":123456,5:"Five"}
 # print("the user details is :",user_details)
 
 # print(user_details.get("name"))
@@ -22,14 +22,16 @@ user_details={"name":"Aman","addhar":123456,5:"Five"}
 # user_details.update({"Age":23})
 # print(user_details)
 
-# print("aadhar :",user_details["addhar"])
+# print("aadhar :",user_details["aadhar"])
 
 # user_details.pop(5)
+# user_details.pop("name")
 
 # print(user_details)
 # #stack -> last in first out
 # user_details.popitem()
 # print(user_details)
+
 # user_details.popitem()
 # print(user_details)
 
@@ -37,22 +39,26 @@ user_details={"name":"Aman","addhar":123456,5:"Five"}
 # print(user_details)
 
 # del user_details
-# user_details.clear()
+# # user_details.clear()
 # print(user_details)
 
 
-# for e in user_details:
-    # print(e) # for key
-    # print(user_details[e]) # for value
-    # print(e," = ",user_details[e])    
+# for k in user_details:
+#     print("-------------------------")
+#     print("key:",k) # for key
+#     print("value:",user_details[k]) # for value
+#     print(k,"=",user_details[k])    
+
+# print(user_details.items())
 
 # for k,v in user_details.items():
-#     print(k," ",v)
-    # print("key :",k," value :",v)
+#     print("-------------------------")
+#     # print(k," ",v)
+#     print("key :",k," value :",v)
 
 user_details={
                 "name":"Aman",
-                "addhar":123456,
+                "aadhar":123456,
                 "address":{
                             "state":"UP",
                             "city":"noida",
@@ -60,5 +66,13 @@ user_details={
                           },
                 "skills":["C","C++","java","python"]
             }
-print(user_details)
-print(user_details["address"]["city"])
+# print(user_details)
+# print(user_details["address"]["city"])
+
+for k in user_details:
+    if isinstance(user_details[k],dict):
+        for nk in user_details[k]:
+            print("\t",nk,":",user_details[k][nk])
+    else:
+        print(k,":",user_details[k])
+
