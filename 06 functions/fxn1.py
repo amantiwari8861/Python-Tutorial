@@ -8,6 +8,8 @@
 # greet() #calling of greet function
 # greet() #calling of greet function
 
+# second way
+
 def person():
     print("i will not do what u say")
 
