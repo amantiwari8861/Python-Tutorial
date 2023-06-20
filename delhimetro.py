@@ -1,5 +1,5 @@
 from time import sleep
-
+ 
 _yellow = [['y1', 'Samaypur Badli'], ['y2', 'Rohini Sector 18,19'], ['y3', 'Haiderpur Badli Mor'], ['y4', 'Jahangirpuri'], ['y5', 'Adarsh Nagar'], ['y6', 'Azadpur'], ['y7', 'Model Town'], ['y8', 'GTB Nagar'], ['y9', 'Vishwavidyalaya'], ['y10', 'Vidhan Sabha'], ['y11', 'Civil Lines'], ['y12', 'Kashmere Gate'], ['y13', 'Chandni Chowk'], ['y14', 'Chawri Bazar'], ['y15', 'New Delhi'], ['y16', 'Rajiv Chowk'], ['y17', 'Patel Chowk'], ['y18', 'Central Secretariat'], [
     'y19', 'Udyog Bhawan'], ['y20', 'Lok Kalyan Marg'], ['y21', 'Jor Bagh'], ['y22', 'INA'], ['y23', 'AIIMS'], ['y24', 'Green Park'], ['y25', 'Hauz Khas'], ['y26', 'Malviya Nagar'], ['y27', 'Saket'], ['y28', 'Qutab Minar'], ['y29', 'Chhatarpur'], ['y30', 'Sultanpur'], ['y31', 'Ghitorni'], ['y32', 'Arjangarh'], ['y33', 'Guru Dronacharya'], ['y34', 'Sikandarpur'], ['y35', 'MG Road'], ['y36', 'IFFCO Chowk'], ['y37', 'Huda City Centre']]
 _voilet = [['v1', 'Kashmere Gate'], ['v2', 'Lal Quila'], ['v3', 'Jama Masjid'], ['v4', 'Delhi Gate'], ['v5', 'ITO'], ['v6', 'Mandi House'], ['v7', 'Janpath'], ['v8', 'Central Secretariat'], ['v9', 'Khan Market'], ['v10', 'JLN Stadium'], ['v11', 'Jangpura'], ['v12', 'Lajpat Nagar'], ['v13', 'Moolchand'], ['v14', 'Kailash Colony'], ['v15', 'Nehru Place'], ['v16', 'Kalkaji Mandir'], ['v17', 'Govind Puri'], ['v18', 'Harkesh Nagar Okhla'], [
