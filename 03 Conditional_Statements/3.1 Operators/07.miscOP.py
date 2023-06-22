@@ -1,7 +1,8 @@
 #identity operators eg. is
-# name="Aman Tiwari"
-# name2="Aman Tiwari"
+name="Aman Tiwari"
+name2="Aman Tiwari"
 # print(name is name2)
+# print(name == name2)
 # print(name is not name2)
 
 
@@ -14,5 +15,5 @@ print('hello' not in name3)  #False
 
 #floor division
 # eg. //
+# print(10/3)
 # print(10//3)
-# print(10," is added with ",5," is \t",10+5)
