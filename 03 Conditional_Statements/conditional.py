@@ -23,7 +23,22 @@ age = int(input("Enter your age : "))
 #elif
 
 # if age>=60:
+#     print("senior citizens get Rs. 1000 for voting")
+# elif age>=26:
+#     print("u will get Rs. 500 for voting")
+# elif age>=18:
+#     print("u will get 1 frooti and 1 ladoo")
+# else:
+#     print("go home and sleep")
+
+# if age>=60:
 #     print("senior citizens get 1000 for voting")
+#     if age>=90:
+#         print("greet him/her on stage")
+#     elif age>=70:
+#         print("greet them personally")
+#     else:
+#         print("one set of safari suit")
 # elif age>=26:
 #     print("u will get 500 for voting")
 # elif age>=18:
@@ -31,24 +46,9 @@ age = int(input("Enter your age : "))
 # else:
 #     print("go home and sleep")
 
-if age>=60:
-    print("senior citizens get 1000 for voting")
-    if age>=90:
-        print("greet him/her on stage")
-    elif age>=70:
-        print("greet them personally")
-    else:
-        print("one set of safari suit")
-elif age>=26:
-    print("u will get 500 for voting")
-elif age>=18:
-    print("u will get 1 frooti and 1 ladoo")
-else:
-    print("go home and sleep")
 
 
-
-# marks = int(input("Enter your marks : "))
+marks = int(input("Enter your marks : "))
 
 # if marks>=90 and marks<=100:
 #     print("u got admission in DU")
@@ -62,19 +62,19 @@ else:
 #     print("sell tea!")
 
 
-# if marks >= 90 and marks <= 100:
-#     print("u got admission in DU")
-#     if marks >= 97:
-#         print("u got CS Branch")
-#         if marks == 100:
-#             print("u got Scholarship of Rs.1,00,000")
-#     elif marks >= 95:
-#         print("u got EC Branch")
-#     elif marks >= 93:
-#         print("u got MEC Branch")
-#     else:
-#         print("u got Civil branch")
-# elif marks >= 33 and marks < 90:
-#     print("u got admission in other university")
-# else:
-#     print("sell tea!")
+if marks >= 90 and marks <= 100:
+    print("u got admission in DU")
+    if marks >= 97:
+        print("u got CS Branch")
+        if marks == 100:
+            print("u got Scholarship of Rs.1,00,000")
+    elif marks >= 95:
+        print("u got EC Branch")
+    elif marks >= 93:
+        print("u got MEC Branch")
+    else:
+        print("u got Civil branch")
+elif marks >= 33 and marks < 90:
+    print("u got admission in other university")
+else:
+    print("sell tea!")

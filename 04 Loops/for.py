@@ -28,7 +28,7 @@
 #     n=n+1
 
 # for i in range(1,11):
-#     print(3," x ",i,"=",3*i)
+#     print(3," X ",i,"=",3*i)
 
 '''
     psuedocode(Dry-run)
@@ -54,10 +54,13 @@
 #     print(" character = ",ch)
 
 #we will study this later in next chapter
-fruits=["Mango","Apple","litchi","pomegranate","etc"]
+basket=["Mango","Apple","litchi","pomegranate","etc"]
 
-# for i in fruits:
-#     print(i)
+# for fruit in basket:
+#     print(fruit)
 
-for i in range(3):
-    print(fruits[i])
+# for i in range(5):
+#     print(basket[i])
+
+for i in range(len(basket)):
+    print(basket[i])
