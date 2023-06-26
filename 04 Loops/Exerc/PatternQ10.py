@@ -1,9 +1,12 @@
+# *****
+#  ****
+#   ***
+#    **
+#     *
 
-
-for i in range(5):
-    for s in range(i):
+for row in range(1,6):
+    for space in range(1,row):
         print(" ",end="")
-    
-    for j in range(5,i,-1):
+    for star in range(6,row,-1):
         print("*",end="")
     print()
