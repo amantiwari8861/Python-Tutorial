@@ -20,9 +20,10 @@
 #     print("fruit :",i)
 
 # marks=[59]
-# marks.append(55)
+# # marks.append(55)
 # marks=marks+[67,89,36]
 # print(marks)
+
 
 # length=len(fruits)
 # print(length)
@@ -45,24 +46,24 @@
 # print(fruits)
 # fruits.remove(67)
 # fruits.extend(["banana","chiku"])
-# # fruits.reverse()
+# fruits.reverse()
 # print(fruits)
 # fruits.insert(2,"papaya")
-# # fruits.clear()
-# fruits[2]="papaya 2.0" # if u insert this in 2nd position in empty list then it will generate error
-# # fruits.clear()
+# fruits.clear()
+# # fruits[2]="papaya 2.0" # if u insert this in 2nd position in empty list then it will generate error
+# fruits.append("dragon fruit")
+# # # fruits.clear()
 # print(fruits)
 
 
-
-# fruits=["Apple","strawberry",67,True,"mango",45.89,"Apple"]
-# for f in fruits:
-#     # print(" the fruit is :",f)
-#     if isinstance(f,str):
-#         print(" the fruit is :",f)
-#     if isinstance(f,int):
-#         print("the number is :",f)
-#     if isinstance(f,float):
-#         print("the float is :",f)
-#     if isinstance(f,bool):
-#         print("the boolean is :",f)
+fruits=["Apple","strawberry",67,True,"mango",45.89,"Apple"]
+for f in fruits:
+    # print(" the fruit is :",f)
+    if isinstance(f,str):
+        print(" the fruit is :",f)
+    if isinstance(f,int):
+        print("the number is :",f)
+    if isinstance(f,float):
+        print("the float is :",f)
+    if isinstance(f,bool):
+        print("the boolean is :",f)
