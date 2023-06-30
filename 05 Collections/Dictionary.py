@@ -19,10 +19,10 @@
 
 # print(user_details)
 
-# user_details.update({"Age":23})
+# user_details.update({"Age":24})
 # print(user_details)
 
-# print("aadhar :",user_details["aadhar"])
+# print("Aadhar Number:",user_details["aadhar"])
 
 # user_details.pop(5)
 # user_details.pop("name")
@@ -39,14 +39,14 @@
 # print(user_details)
 
 # del user_details
-# # user_details.clear()
+# user_details.clear()
 # print(user_details)
 
 
 # for k in user_details:
 #     print("-------------------------")
-#     print("key:",k) # for key
-#     print("value:",user_details[k]) # for value
+#     # print("key:",k) # for key
+#     # print("value:",user_details[k]) # for value
 #     print(k,"=",user_details[k])    
 
 # print(user_details.items())
