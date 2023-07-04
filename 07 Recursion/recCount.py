@@ -25,15 +25,15 @@
 # counting(1)
 
 # e.g. 5! = 5*4*3*2*1 =120
-def factorial(num):
-    if(num>0):
-        return num*factorial(num-1)
-    else:
-        return 1
+# def factorial(num):
+#     if(num>0):
+#         return num*factorial(num-1)
+#     else:
+#         return 1
 
-num=int(input("enter a number :"))
-result=factorial(num)
-print("the factorial is ",result)
+# num=int(input("enter a number :"))
+# result=factorial(num)
+# print("the factorial is ",result)
 
 
 # def countFor(num):
