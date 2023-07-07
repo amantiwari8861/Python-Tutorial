@@ -8,7 +8,7 @@
 #class is a set of objects which shares a common structure and behaviour
 
 # how many cars we can build using same blue print ? Ans. Infinite
-# if both the cars are made of same blue print then i will be same or not ? Ans. Yes
+# if both the cars are made of same blue print then it will be same or not ? Ans. Yes
 # let we maked 2 cars from same blueprint one i gave u and 1 have taken
 # then can i say to you that your car is also mine ? Ans. No
 # bcz every car(object) have it's own identity(chasis no.,Registration No.) it can't be duplicate
@@ -17,7 +17,7 @@
 
 # a=10
 # b="hii"
-# bcz python is dynamically types programming language
+# # bcz python is dynamically types programming language
 # print(type(a))
 # print(type(b))
 # print(type(50))
@@ -25,14 +25,14 @@
 # here 50 is a object of int class and "Hello" is object of str class
 
 class Car:
-    model="Bugati veygon"
+    model="Bugatti Chiron"
 
-    def showDetails(self):
+    def showDetails(self):   #method
         print("my car is ",self.model)
 
-# car1=Car() #making object
-# car1.showDetails()
-# print(car1.model)
+harsh_ki_car=Car() #making object
+harsh_ki_car.showDetails()
+print(harsh_ki_car.model)
 
 car2=Car()
 car2.model="audi Q3"
