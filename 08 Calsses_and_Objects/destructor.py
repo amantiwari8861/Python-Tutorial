@@ -13,4 +13,4 @@ class Employee:
 obj = Employee()
 print(type(obj))
 del obj
-print(type(obj))
+# print(type(obj))

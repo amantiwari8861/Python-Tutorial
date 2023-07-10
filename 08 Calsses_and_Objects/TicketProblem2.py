@@ -21,6 +21,7 @@ class Ticket:
             print("Destination :",t1.destination)
         else:
             print("Ur ticket details is not Available")
+        
 
 class Passenger:
     def bookTicket(self):

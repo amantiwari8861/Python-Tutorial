@@ -1,10 +1,12 @@
 class Building:
+    institute=""
     # def __init__(self):
     #     print("default constructor")
     #     self.institute="Niit"
-    institute="Niit"
+    
     def __init__(self,owner):
         self.owner=owner
+        self.institute="Mega"
 
     def showBuildingDetails(self):
         print("institute ",self.institute)

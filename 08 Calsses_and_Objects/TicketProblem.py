@@ -9,7 +9,7 @@ class Ticket:
         details['source']=input("enter the source :")
         details['destination']=input("enter the destination :")
         self.passengers[mobNo]=details
-        # print(self.passengers)
+        print(self.passengers)
     
     def print(self):
         i=0

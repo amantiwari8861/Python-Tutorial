@@ -1,5 +1,5 @@
 class Student:
-    id #instance variables
+    id
     institute="Mega"  #instance variables
     marks=0 #instance variables
     def __init__(self,name,marks,stid): #parametrized constructor
@@ -17,10 +17,10 @@ class Student:
 # print("institute is ",st1.institute)
 # st1.showDetails()
 
-st1=Student("aman",95,102)
-st1.showDetails()
+student1=Student("aman",95,102)
+student1.showDetails()
 
-print("the name is ",st1.name)
-print("the marks is ",st1.marks)
-print("the stid is ",st1.stid)
-print("the institute is ",st1.institute)
+print("the name is ",student1.name)
+print("the marks is ",student1.marks)
+print("the stid is ",student1.stid)
+print("the institute is ",student1.institute)
