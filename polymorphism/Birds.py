@@ -1,23 +1,25 @@
+# polymorphism : poly -> many  morphs -> forms
+
 class Bird:
     def fly(self):
         print(" birds can fly ")
 
-class Ostrich(Bird):
+class Ostrich:
     def fly(self):
-        print(" ostrich can't fly")
+        print(" ostrich can't fly it runs")
 
-class Pigeon(Bird):
+class Pigeon:
     def fly(self):
         print(" pigeon can fly ")
 
 
 os=Ostrich()
-pig=Pigeon()
+pi=Pigeon()
 b=Bird()
 
 # os.fly()
 # pig.fly()
 # b.fly()
 
-for bird in (os,pig,b):
-    bird.fly()
+for brd in (os,pi,b):
+    brd.fly()

@@ -4,7 +4,7 @@ class Building:
     #     print("default constructor")
     #     self.institute="Niit"
     
-    def __init__(self,owner):
+    def __init__(self,owner=None):
         self.owner=owner
         self.institute="Mega"
 

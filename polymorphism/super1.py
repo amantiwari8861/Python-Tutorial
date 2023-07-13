@@ -8,7 +8,7 @@ class Human(Primates):
         super().eat() #calling superclass behaviour
         # self.eat()
         print("they eat both veg and non veg")
-        print("legs :",super().legs)#calling superclass attribute
+        # print("legs :",super().legs)#calling superclass attribute
 
 h=Human()
 h.eat()
