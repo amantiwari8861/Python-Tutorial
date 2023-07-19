@@ -17,7 +17,7 @@ label.config(foreground = 'blue', background = 'yellow')
 label.config(font = ('Courier', 18, 'bold'))
 label.config(text = 'Howdy, Tkinter!')
 
-logo = PhotoImage(file = 'python_logo.gif') # change path to image as necessary
+logo = PhotoImage(file = './python_logo.gif') # change path to image as necessary
 label.config(image = logo)
 label.config(compound = 'text')
 label.config(compound = 'center')
