@@ -1,85 +1,39 @@
-import mysql.connector
+import CRUD as dblib
+import os
 
-# conn = pyodbc.connect(conn_str)
-def getMySQLConnection():
-    try:
-        con=mysql.connector.connect(
-        host="localhost",
-        database="pdbc",
-        user="root",
-        password="1234" )
-    except:
-        print("unable to connect with mysql")
+while True:
+    os.system("cls")
+    print("1.Print All students Details")
+    print("2.Get All students Details")
+    print("3.insert a student's Details")
+    print("4.update a student's Details")
+    print("5.delete a student's Details")
+    print("6.exit")
 
-    return con
+    choice=int(input("Enter ur choice :"))
+    if(choice==1):
+        dblib.printAllStudentsData()
+    elif choice==2:
+        alldata=dblib.getAllStudentsData()
+    elif choice==3:
+        id=int(input("enter ur id:"))
+        name=input("enter ur name:")
+        phone=int(input("enter ur phone no:"))
+        address=input("enter ur address:")
+        fees=float(input("enter ur fees:"))
+        dblib.insertOneRow(id,name,phone,address,fees)
+    elif choice==4:
+        prev=int(input("enter previous Id:"))
+        id=int(input("enter ur new id:"))
+        name=input("enter ur new name:")
+        phone=int(input("enter ur new phone no:"))
+        address=input("enter ur address:")
+        fees=float(input("enter ur new fees:"))
+        dblib.updateStudent(prev,id,name,phone,address,fees)
+    elif choice==5:
+        id2=int(input("Enter Student's id to be deleted :"))
+        dblib.deleteStudent(id2)
+    elif choice==6:
+        exit(0)
 
-def getAllStudentsData():
-    con=getMySQLConnection()
-    cursor = con.cursor()
-    cursor.execute("SELECT * FROM students;")
-    return cursor.fetchall()
-
-def printAllStudentsData():
-    try:
-        con=getMySQLConnection()
-        cursor=con.cursor()
-        cursor.execute("SELECT * FROM students;")
-        print("\t\t\t======Student Details======")
-        for i in cursor.column_names:
-            print(f" %-15s "%i,end="")
-        print("\n------------------------------------------------------------------------------------")
-        print()
-        for row in cursor:
-            for coldata in row:
-                print(f" %-15s "%coldata,end="")
-            print()
-    except:
-        print("unable to select all data")
-    
-    cursor.close()
-
-def insertOneRow(stid,name,phone,address,fees):
-    try:
-        con=getMySQLConnection()
-        cursor=con.cursor()
-        query="insert into students values(%s,%s,%s,%s,%s);"
-        data=(stid,name,phone,address,fees)
-        cursor.execute(query,data)
-        print(cursor.rowcount," Rows inserted!")
-    except:
-        print("unable to insert data in table")
-    con.commit()
-    con.close()
-
-print("1.Print All students Details")
-print("2.Get All students Details")
-print("3.insert a student's Details")
-
-choice=int(input("Enter ur choice :"))
-if(choice==1):
-    printAllStudentsData()
-elif choice==2:
-    alldata=getAllStudentsData()
-elif choice==3:
-    id=int(input("enter ur id:"))
-    name=input("enter ur name:")
-    phone=int(input("enter ur phone no:"))
-    fees=float(input("enter ur fees:"))
-
-    insertOneRow(id,name,phone,fees)
-
-'''
-show databases;
-create database pdbc;
-create table Students(id int primary key,name varchar(255),phone bigint,address varchar(255),fees float);
-desc students;
-show tables;
-insert into students values(100,"Aman",9891062743,"Niit 62 Noida",5000.56);
- --truncate students;
-insert into students values 
-(101,"Aman",9891062743,"Niit 62 Noida",5000.56),
-(102,"Naman",9891062743,"Niit 32 Noida",800.56),
-(103,"Anmol",9891062743,"Niit 67 Noida",300.56),
-(104,"Jai Singh",9891062743,"Niit 98 Noida",15000.56);
-select * from students where name like '%n';
-'''
+    input("Press Any key to continue....")
