@@ -1,4 +1,4 @@
-str1="the quick.BRown fox JUMPS over the lazy frog"
+# str1="the quick.BRown fox JUMPS over the lazy frog"
 
 # length=len(str1)
 # print("the sentence length is ",length)
@@ -12,6 +12,7 @@ str1="the quick.BRown fox JUMPS over the lazy frog"
 # print(str1[::2])
 # print(str1[4::2])
 # print(str1[::-2])
+# print(str1[::-1])
 # print(str1.lower())
 # print(str1.upper())
 # print(str1.title())
@@ -20,8 +21,8 @@ str1="the quick.BRown fox JUMPS over the lazy frog"
 # print(str1.islower())
 # print(str1.count("fox"))
 # print("@".join("Hii"))
-strarr=str1.split(" ")
-print(strarr)
-print("-".join(strarr))
-print(" ".join(strarr))
-print("_".join(strarr))
+# strarr=str1.split(" ")
+# print(strarr)
+# print("-".join(strarr))
+# print(" ".join(strarr))
+# print("_".join(strarr))

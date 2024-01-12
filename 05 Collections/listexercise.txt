@@ -1,0 +1,11 @@
+1.take 10 no. from user and find maximum number.
+2.take 10 no. from user and find minimum number.
+3.take 10 no. from user and take a number to search from list and find the index of that number.(linear search)
+4.copy one list's elements to another list.
+5.print list's elements in reverse order.
+6.Write a python program to find the common elements between two lists of integers.  
+7.Write a python program to find the second largest element in an list.  
+8.Write a python program to test the equality of two lists.  
+9. Write a python program to find the number of even and odd integers in a given list of integers.  
+10.Write a python program to get the difference between the largest and smallest values in an list of integers.
+11.Write a python program to find the unique elements in an list.
