@@ -36,6 +36,7 @@ Lists, tuples and dictionary, (Slicing, Indexing, Concatenation, other operation
 on Sequence datatype),concept of mutability, Examples to include finding
 the maximum, minimum, mean; linear search on list/tuple of numbers, and
 counting the frequency of elements in a list using a dictionary.
+
 (vi) Functions
 Top-down approach of problem solving, Modular programming and functions,
 Function parameters, Local variables, the Return statement, DocStrings, global
@@ -46,6 +47,7 @@ replace(), strip(), lstrip(), rstrip(), aplit(), partition(), join(), isspace(),
 isdigit(), isalnum(), startswith(), endswith(), encode(), decode(), String: Slicing,
 Membership, Pattern Matching, Numeric Functions: eval(), max(), min(), pow(),
 round(), int(), random(), ceil(), floor(), sqrt(), Date & Time Functions, Recursion.
+
 (vii) File Processing
 Concept of Files, File opening in various modes and closing of a file, Reading from
 a file, Writing onto a file, File functions-open(), close(), read(), readline(),

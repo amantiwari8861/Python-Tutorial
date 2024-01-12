@@ -37,3 +37,33 @@
 
 # print("after sorting :",numbers)
 
+# fruits=["apple","banana","papaya","pomegranate","Apple","1","Chiku","jack fruit","chiku"]
+# fruits.sort()
+
+# print(fruits)
+
+# fruits.extend(["custard apple","orange"])
+# fruits.extend(("custard apple","orange"))
+# fruits.extend({"custard apple","orange"})
+
+# fruits.append(["custard apple","orange"])
+
+# print(fruits)
+# fruits.insert(2,"PLUM")
+# fruits.remove("Apple")
+# fruits.remove("1")
+# print(fruits)
+# fruits.pop()
+# print(fruits)
+# fruits.clear()
+# print(fruits)
+# fruits.pop()
+# print(fruits)
+# print(fruits.index("Chiku"))
+
+# print(fruits.count("Apple"))
+# fruits.reverse()
+# print(fruits)
+# eatable_items=fruits.copy()
+# print(eatable_items)
+
