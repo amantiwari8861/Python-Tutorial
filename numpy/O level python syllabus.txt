@@ -52,9 +52,11 @@ round(), int(), random(), ceil(), floor(), sqrt(), Date & Time Functions, Recurs
 Concept of Files, File opening in various modes and closing of a file, Reading from
 a file, Writing onto a file, File functions-open(), close(), read(), readline(),
 readlines(),write(), writelines(),tell(),seek(), Command Line arguments.
+
 (viii) Scope and Modules
 Scope of objects and Names, LEGB Rule
 Module Basics, Module Files as Namespaces, Import Model, Reloading Modules.
+
 (ix) NumPy Basics
 Introduction to NumPy, ndarray, datatypes, array attributes, array creation routines,
 Array From Existing Data, Array From Numerical Ranges, Indexing & Slicing.

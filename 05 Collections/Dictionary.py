@@ -1,7 +1,7 @@
 # d2={}
 # d1=dict()
 
-# user_details={"name":"Aman","aadhar":123456,5:"Five"}
+# user_details={"name":"Aman","aadhar":123456,5:"Five","name":"rishit"}
 # print("the user details is :",user_details)
 
 # print(user_details.get("name"))
@@ -19,7 +19,7 @@
 
 # print(user_details)
 
-# user_details.update({"Age":24})
+# user_details.update({"Age":28})
 # print(user_details)
 
 # print("Aadhar Number:",user_details["aadhar"])
@@ -28,7 +28,7 @@
 # user_details.pop("name")
 
 # print(user_details)
-# #stack -> last in first out
+# # #stack -> last in first out
 # user_details.popitem()
 # print(user_details)
 
@@ -64,10 +64,11 @@ user_details={
                             "city":"noida",
                             "pincode":201301
                           },
-                "skills":["C","C++","java","python"]
+                "skills":["C","C++","java","python","etc"]
             }
 # print(user_details)
 # print(user_details["address"]["city"])
+# print(user_details["skills"][2])
 
 for k in user_details:
     if isinstance(user_details[k],dict):
