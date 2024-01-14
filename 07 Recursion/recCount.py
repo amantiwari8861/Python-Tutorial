@@ -14,7 +14,7 @@
 # counting(10)
 
 # def counting(num):
-#     if(num>0):  #Base condition
+#     if(num>0):  #Base condition (Termination condition)
 #         print("num = ",num)
 #         counting(num-1)
 
@@ -31,8 +31,8 @@
 def counting(num):
     if(num<=10):
         print("num = ",num)
-        if num==5:
-            return
+        # if num==5:
+        #     return
         counting(num+1)
 
 counting(1)

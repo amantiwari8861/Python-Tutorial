@@ -1,0 +1,17 @@
+# Example list
+numbers = [5, 8, 2, 10, 3, 8, 15, 5, 10, 8]
+
+# Counting frequency using a dictionary
+frequency_dict = {}
+frequency_dict[99]
+print(frequency_dict)
+for num in numbers:
+    if num in frequency_dict:
+        frequency_dict[num] += 1
+    else:
+        frequency_dict[num] = 1
+
+# Print frequency dictionary
+print("Frequency of elements:")
+for key, value in frequency_dict.items():
+    print(f"{key}: {value}")
