@@ -1,25 +1,32 @@
-def calculate_expenditure(list_of_expenditure):
-    total = 0
-    try:
-        for expenditure in list_of_expenditure:
-            total += expenditure
-        print("Total:", total)
-        avg = total/num_values
-        print("Average:", avg)
-    except ZeroDivisionError:
-        print("Divide by Zero error")
-    except TypeError:
-        print("Wrong data type")
-    except:
-        print("Some error occured")
+# list_of_values = [100, 200, 300, 400, 500]
+# num_values = len(list_of_values)
 
-    print("Thank-you visit again!!")
+# total=0
+# for expenditure in list_of_values:
+#     total += expenditure
 
-# list_of_values = [100, 200, 300, "400", 500]
+# print("Total:", total)
+# avg = total/num_values
+# print("Average:", avg)
+
 list_of_values = [100, 200, 300, 400, 500]
-# num_values = 0
-num_values = 2
-calculate_expenditure(list_of_values)
+num_values = len(list_of_values)
+
+total = 0
+try:
+    for expenditure in list_of_values:
+        total += expenditure
+    print("Total:", total)
+    avg = total/num_values
+    print("Average:", avg)
+except ZeroDivisionError:
+    print("Divide by Zero error")
+except TypeError:
+    print("Wrong data type")
+except:
+    print("Some error occured")
+
+print("Thank-you visit again!!")
 
 
 # Note: 

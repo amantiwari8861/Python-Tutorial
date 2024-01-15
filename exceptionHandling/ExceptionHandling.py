@@ -7,5 +7,4 @@ try:
 except:
     print("please do not divide by Zero !")
 
-
 print("Thank-you visit again !!")
