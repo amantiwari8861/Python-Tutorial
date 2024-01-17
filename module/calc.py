@@ -1,4 +1,4 @@
-import Mathlibrary
+# import Mathlibrary
 import Mathlibrary as m   #as means alias (Nickname)
 
 n1=int(input("enter num1:"))
