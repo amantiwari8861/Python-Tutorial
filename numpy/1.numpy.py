@@ -4,12 +4,12 @@ import numpy as np
 
 # # 1D array
 arr_1d = np.array([1, 2, 3])
-# arr_1d = np.array([1, 2, 3],dtype="int16") #2 bytes 
+# arr_1d = np.array([1, 2, 3],dtype="int16") #2 bytes
 # print("1D Array:")
 # print(arr_1d)
 # print(type(arr_1d[0]))
-# arr_1d = arr_1d.astype(np.int32) 
-# print(arr_1d) 
+# arr_1d = arr_1d.astype(np.int32)
+# print(arr_1d)
 # print(type(arr_1d[0]))
 # data_type = arr_1d.dtype
 # print("Data type:", data_type)
@@ -83,5 +83,11 @@ print("\nExponential of Elements:")
 print(exp_arr)
 
 
-# """ The NumPy library contains multidimensional array and matrix data structures (you’ll find more information about this in later sections). It provides ndarray, a homogeneous n-dimensional array object, with methods to efficiently operate on it. NumPy can be used to perform a wide variety of mathematical operations on arrays. It adds powerful data structures to Python that guarantee efficient calculations with arrays and matrices and it supplies an enormous library of high-level mathematical functions that operate on these arrays and matrices.
-#  """
+""" The NumPy library contains multidimensional array and matrix data structures 
+(you’ll find more information about this in later sections). It provides ndarray,
+a homogeneous n-dimensional array object, with methods to efficiently operate on it.
+NumPy can be used to perform a wide variety of mathematical operations on arrays.
+It adds powerful data structures to Python that guarantee efficient calculations with arrays
+and matrices and it supplies an enormous library of high-level mathematical functions that
+operate on these arrays and matrices.
+"""
