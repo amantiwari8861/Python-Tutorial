@@ -9,6 +9,7 @@ class Emp(HR):
        print("Hr name in showHrDetails :",self.name)
        print("Hr hrId in showHrDetails :",self._hrId)
     #    print("Hr creditCard in showHrDetails :",self.__creditCard) #private data inaccessible
+       print("Hr creditCard in showHrDetails :",self._HR__creditCard) #private data inaccessible
         
 obj=Emp()
 obj.showHrDetails()
@@ -18,7 +19,7 @@ print(" HrId =",obj._hrId," outside the child body")  #works Fine
 print(" HrCreditCard =",obj._HR__creditCard," outside the child body")  
 
 h=HR()
-# print("calling private data ",h.__creditCard)
+print("calling private data ",h.__creditCard)
 print("calling private data ",h._HR__creditCard)
 
 # The members of a class that are declared protected are only accessible 
