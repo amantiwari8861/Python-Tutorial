@@ -23,7 +23,7 @@ class Feedback:
         self.frame_header = ttk.Frame(master)
         self.frame_header.pack()
         
-        self.logo = PhotoImage(file = 'tour_logo.gif')
+        self.logo = PhotoImage(file = './tour_logo2.png')
         ttk.Label(self.frame_header, image = self.logo).grid(row = 0, column = 0, rowspan = 2)
         ttk.Label(self.frame_header, text = 'Thanks for Exploring!', style = 'Header.TLabel').grid(row = 0, column = 1)
         ttk.Label(self.frame_header, wraplength = 300,
