@@ -1,4 +1,4 @@
-# Making Getters and Setter methods
+# # Making Getters and Setter methods
 # class Celsius:
 #     def __init__(self, temperature=0):
 #         self.set_temperature(temperature)
@@ -16,9 +16,11 @@
 
 # Create a new object, set_temperature() internally called by __init__
 # human = Celsius(37)
-
 # # Get the temperature attribute via a getter
 # print(human.get_temperature())
+# print(human.temperature)
+# human._temperature=-4000
+# print(human._temperature)
 
 # # Get the to_fahrenheit method, get_temperature() called by the method itself
 # print(human.to_fahrenheit())
@@ -60,6 +62,7 @@ class Celsius:
     temperature = property(get_temperature, set_temperature)
 
 human = Celsius(37)
-print(human.temperature)
+# human.temperature=-400
+# print(human.temperature)
 print(human.to_fahrenheit())
 human.temperature = -300

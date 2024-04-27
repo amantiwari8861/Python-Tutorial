@@ -18,9 +18,13 @@ print(" HrId =",obj._hrId," outside the child body")  #works Fine
 # print(" HrCreditCard =",obj.__creditCard," outside the child body")  #error
 print(" HrCreditCard =",obj._HR__creditCard," outside the child body")  
 
-h=HR()
-print("calling private data ",h.__creditCard)
-print("calling private data ",h._HR__creditCard)
+# h=HR()
+# print("calling private data ",h.__creditCard)
+# print("calling private data ",h._HR__creditCard)
+
+# name mangling
+
+
 
 # The members of a class that are declared protected are only accessible 
 # to a class derived from it. Data members of a class are declared protected
