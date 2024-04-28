@@ -33,4 +33,12 @@ label.pack()
 
 button=Button(window,text="send",command=sendMsg,font=("Times New Roman",30),fg="#ffffff",bg="blue",activeforeground="blue",activebackground="white",image=photo,compound="right")
 button.pack()
+
+inp=Entry(window,font=("Arial",50))
+inp.pack()
+def submit():
+    text=inp.get()
+    print("Text:",text)
+submit_btn=Button(window,text="submit",command=submit)
+submit_btn.pack(side=RIGHT)
 window.mainloop()
