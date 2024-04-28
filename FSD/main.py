@@ -1,9 +1,14 @@
 from mathFxn import add,inputData,volOfsphere,sub,multi,divide
+# import mathFxn
+# import mathFxn as calc
+# from mathFxn import *
 # import math
 
 op=input("enter operation:")
 
 if op=="+":
+    # print("The sum is :",mathFxn.add(mathFxn.inputData()))
+    # print("The sum is :",calc.add(calc.inputData()))
     print("The sum is :",add(inputData()))
 elif op=="-":
     print("The sub is :",sub(inputData()))

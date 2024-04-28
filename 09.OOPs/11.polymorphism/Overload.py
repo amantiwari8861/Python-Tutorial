@@ -9,7 +9,7 @@ class Shape:
     def __str__(self):
         return f"length {self.length} height {self.height} width {self.width} radius {self.radius} "
 
-line=Shape(5)
+line=Shape(width=87)
 line1=Shape(5,30)
 line2=Shape(5,30,20)
 line3=Shape(10,5,16,78)
