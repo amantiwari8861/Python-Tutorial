@@ -7,10 +7,13 @@ def getMySQLConnection():
         host="localhost",
         database="pdbc",
         user="root",
-        password="1234" )
+        password="1234"
+        )
+        print("Connected to MySQL successfully!")
+    except mysql.connector.Error as e:
+        print("Error connecting to MySQL database:", e)
     except:
         print("unable to connect with mysql")
-
     return con
 
 def getAllStudentsData():
