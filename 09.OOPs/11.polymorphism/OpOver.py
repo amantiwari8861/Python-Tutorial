@@ -1,23 +1,26 @@
+# print(10+20)
+# print("Hello"+" Aman sir")
+# print("$"*5)
+
+
 class Point:
     def __init__(self, x=0, y=0):
         self.x = x
         self.y = y
-
     def __str__(self):
-        return "({0},{1})".format(self.x, self.y)
-
+        # return "({0},{1})".format(self.x, self.y)
+        return f"({self.x},{self.y})"
+        
     def __add__(self, other):
         x = self.x + other.x
         y = self.y + other.y
         return Point(x, y)
-
 
 p1 = Point(1, 2)
 p2 = Point(2, 3)
 
 print(p1+p2)
 
-# Output: (3,5)
 # Addition	            p1 + p2	    p1.__add__(p2)
 # Subtraction	        p1 - p2	    p1.__sub__(p2)
 # Multiplication	    p1 * p2	    p1.__mul__(p2)
@@ -37,18 +40,17 @@ class Person:
         self.name = name
         self.age = age
 
-    # overload < operator
     def __lt__(self, other):
         return self.age < other.age
 
-p1 = Person("Alice", 20)
-p2 = Person("Bob", 30)
-
+p1 = Person("Aniket", 20)
+p2 = Person("Aman", 30)
 print(p1 < p2)  # prints True
 print(p2 < p1)  # prints False
-# Less than	p1 < p2	p1.__lt__(p2)
-# Less than or equal to	p1 <= p2	p1.__le__(p2)
-# Equal to	p1 == p2	p1.__eq__(p2)
-# Not equal to	p1 != p2	p1.__ne__(p2)
-# Greater than	p1 > p2	p1.__gt__(p2)
+
+# Less than	                p1  < p2	p1.__lt__(p2)
+# Less than or equal to	    p1 <= p2	p1.__le__(p2)
+# Equal to	                p1 == p2	p1.__eq__(p2)
+# Not equal to	            p1 != p2	p1.__ne__(p2)
+# Greater than	            p1  > p2	p1.__gt__(p2)
 # Greater than or equal to	p1 >= p2	p1.__ge__(p2)

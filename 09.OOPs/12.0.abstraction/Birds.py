@@ -1,5 +1,7 @@
-# polymorphism : poly -> many  morphs -> forms
-class Bird:
+from abc import ABC, abstractmethod
+
+class Bird(ABC):
+    @abstractmethod
     def fly(self):
         print(" birds can fly ")
 class Ostrich(Bird):
@@ -9,14 +11,11 @@ class Ostrich(Bird):
 class Pigeon(Bird):
    pass
 
-b=Bird()
+# b=Bird()
 # b.fly()
 
-os=Ostrich()
+# os=Ostrich()
 # os.fly()
 
-pi=Pigeon()
+# pi=Pigeon()
 # pi.fly()
-
-for brd in (os,pi,b):
-    brd.fly()
