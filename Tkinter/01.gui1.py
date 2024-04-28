@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 # import os
 # from PIL import Image, ImageTk
 
@@ -9,17 +10,19 @@ from tkinter import *
 #     count1+=1
 #     print("count=",count1)
 
-
 # def sendMsg():
 #     countr()
 #     print("sending msg")
+
+# def delete():
+#     inp.delete(0,END)
 
 window = Tk()
 window.geometry("420x420")
 window.title("Chatting App")
 # print(os.getcwd())  # Print the current working directory
-# icon = PhotoImage(file='./Tkinter/logo.png')
-# window.iconphoto(True, icon)
+icon = PhotoImage(file='./Tkinter/logo.png')
+window.iconphoto(True, icon)
 # window.config(background="#000000")
 # # photo=PhotoImage(file="./Tkinter/logo.png")
 
@@ -34,11 +37,36 @@ window.title("Chatting App")
 # button=Button(window,text="send",command=sendMsg,font=("Times New Roman",30),fg="#ffffff",bg="blue",activeforeground="blue",activebackground="white",image=photo,compound="right")
 # button.pack()
 
-# inp=Entry(window,font=("Arial",50))
+# inp=Entry(window,font=("Arial",50),show="*")
 # inp.pack()
 # def submit():
 #     text=inp.get()
 #     print("Text:",text)
 # submit_btn=Button(window,text="submit",command=submit)
 # submit_btn.pack(side=RIGHT)
+# x=IntVar()
+# def desplay():
+#     print(x.get())
+# skill=Checkbutton(window,text="C",variable=x,onvalue=1,offvalue=0,command=desplay,compound="right")
+# skill.pack()
+genVal=StringVar()
+def printGender():
+    print(genVal.get())
+gender=["Male","Female","others"]
+for index in range(len(gender)):
+    genRB=Radiobutton(window,text=index,variable=genVal,value=gender[index],command=printGender,padx=25,indicatoron=0,width=200)
+    genRB.pack()
+def click():
+    # messagebox.showinfo(title="Info",message="good morning")
+    # messagebox.showwarning(title="Info",message="good morning")
+    # messagebox.showerror(title="Info",message="good morning")
+    # status=messagebox.askokcancel(title="question",message="having lunch with me ?")
+    # print(status)
+    # parentWindow=Toplevel()
+    # childWindow=Tk()
+    window.destroy()
+
+btn=Button(window,command=click,text="Click me!")
+btn.pack()
+
 window.mainloop()
