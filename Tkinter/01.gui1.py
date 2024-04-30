@@ -21,7 +21,7 @@ window = Tk()
 window.geometry("420x420")
 window.title("Chatting App")
 # print(os.getcwd())  # Print the current working directory
-icon = PhotoImage(file='./Tkinter/logo.png')
+icon = PhotoImage(file='./Tkinter/logo2.png')
 window.iconphoto(True, icon)
 # window.config(background="#000000")
 # # photo=PhotoImage(file="./Tkinter/logo.png")

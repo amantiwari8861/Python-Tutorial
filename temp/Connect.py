@@ -1,12 +1,11 @@
 import mysql.connector
 def connect_to_database():
     try:
-        # Establish a connection to the MySQL database
         connection = mysql.connector.connect(
             host="localhost",
             user="root",
             password="1234",
-            database="pdbc"   
+            database="mycollege"   
         )
         if connection.is_connected():
             print("Connected to MySQL database")

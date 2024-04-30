@@ -63,8 +63,8 @@ def updateStudent(prev,id,name,phone,address,fees):
         print(cursor.rowcount," Rows updated!")
     except mysql.connector.ProgrammingError as err:
         print(err.msg)
-    except:
-        print("unable to insert data in table")
+    except Exception as e:
+        print("unable to insert data in table",e)
     con.commit()
     con.close()
 
@@ -74,7 +74,10 @@ def deleteStudent(id2):
         cursor=con.cursor()
         query="delete from students where id="+str(id2)+";"
         cursor.execute(query)
-        print(cursor.rowcount," Rows Deleted!")
+        if cursor.rowcount>0:
+            print(cursor.rowcount," Rows Deleted!")
+        else:
+            print(f"{id2} doesn't exist in database!")
     except mysql.connector.ProgrammingError as err:
         print(err.msg)
     except:
