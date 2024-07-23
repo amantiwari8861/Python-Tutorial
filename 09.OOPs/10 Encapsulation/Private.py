@@ -10,10 +10,10 @@
 class Test: 
 	def __init__(self, a, b): 
 		self.a = a 
-		self.b = b 
+		self.__b = b 
 
 	def __repr__(self): 
-		return "Test a:%s b:%s" % (self.a, self.b) 
+		return "Test a:%s b:%s" % (self.a, self._Test__b) 
 
 	# def __str__(self): 
 	# 	return "From str method of Test: a is %s," \
@@ -23,3 +23,9 @@ class Test:
 t = Test(1234, 5678) 
 print(t) # This calls __str__() 
 # print([t]) # This calls __repr__() 
+print(t._Test__b)
+
+__df__  = 89
+df=90
+__init__
+__add__

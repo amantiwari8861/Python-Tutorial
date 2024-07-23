@@ -19,10 +19,10 @@ try:
     print("Total:", total)
     avg = total/num_values
     print("Average:", avg)
-except ZeroDivisionError:
-    print("Divide by Zero error")
 except TypeError:
     print("Wrong data type")
+except ZeroDivisionError:
+    print("Divide by Zero error")
 except:
     print("Some error occured")
 

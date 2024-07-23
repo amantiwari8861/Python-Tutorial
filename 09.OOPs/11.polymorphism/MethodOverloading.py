@@ -12,3 +12,8 @@ class MyClass:
 obj = MyClass()
 obj.my_method(10)          # Output: One argument: 10
 obj.my_method(10, 20)      # Output: Two arguments: 10, 20
+
+
+
+
+
