@@ -1,7 +1,7 @@
 import CRUD as dblib
 import os
 
-while True:
+while True: # infinite while loop
     os.system("cls")
     print("1.Print All students Details")
     print("2.Get All students Details")

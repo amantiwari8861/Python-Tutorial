@@ -28,8 +28,8 @@ def printAllStudentsData():
         cursor=con.cursor()
         cursor.execute("SELECT * FROM students;")
         print("\t\t\t======Student Details======")
-        for i in cursor.column_names:
-            print(f" %-15s "%i,end="")
+        for col_name in cursor.column_names:
+            print(f" %-15s "%col_name,end="")
         print("\n------------------------------------------------------------------------------------")
         print()
         for row in cursor:

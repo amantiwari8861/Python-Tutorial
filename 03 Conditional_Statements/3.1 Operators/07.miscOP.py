@@ -3,7 +3,7 @@ name="Aman Tiwari"
 name2="Aman Tiwari"
 # print(name is name2)
 # print(name == name2)
-# print(name is not name2)
+print(name is not name2)
 
 
 # membership operators eg. in

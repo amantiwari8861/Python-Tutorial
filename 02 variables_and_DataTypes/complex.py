@@ -15,3 +15,6 @@ print("Real part ",c.real,"Imaginary part",c.imag)
 
 a = complex(input('Enter complex number:'))
 print('Given complex number is:',a)
+
+
+a=2+3j

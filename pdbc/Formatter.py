@@ -9,6 +9,10 @@
 # print(f"%4d"%100)
 # print(f"%4d"%1000)
 
+print("Aman")
+print("Aman tiwari")
+print("Aman tiwari 8861")
+
 print(f"|%-16s|"%"AMan")
 print(f"|%-16s|"%"AMan Tiwari")
 print(f"|%-16s|"%"AMan tiwari 8861")
