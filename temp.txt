@@ -1,1 +1,9 @@
 where our input data stores when we run our codes ?
+
+
+operator overloading
+method overloading
+
+method overriding 
+duck typing
+

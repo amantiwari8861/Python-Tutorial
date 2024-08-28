@@ -56,14 +56,14 @@
 # print(fruits)
 
 
-fruits=["Apple","strawberry",67,True,"mango",45.89,"Apple"]
-for f in fruits:
-    # print(" the fruit is :",f)
-    if isinstance(f,str):
-        print(" the fruit is :",f)
-    if isinstance(f,int):
-        print("the number is :",f)
-    if isinstance(f,float):
-        print("the float is :",f)
-    if isinstance(f,bool):
-        print("the boolean is :",f)
+# fruits=["Apple","strawberry",67,True,"mango",45.89,"Apple"]
+# for f in fruits:
+#     # print(" the fruit is :",f)
+#     if isinstance(f,str):
+#         print(" the fruit is :",f)
+#     if isinstance(f,int):
+#         print("the number is :",f)
+#     if isinstance(f,float):
+#         print("the float is :",f)
+#     if isinstance(f,bool):
+#         print("the boolean is :",f)

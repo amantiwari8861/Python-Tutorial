@@ -2,6 +2,7 @@
 # print("Hello"+" Aman sir")
 # print("$"*5)
 
+# "".
 
 class Point:
     def __init__(self, x=0, y=0):
@@ -54,3 +55,7 @@ print(p2 < p1)  # prints False
 # Not equal to	            p1 != p2	p1.__ne__(p2)
 # Greater than	            p1  > p2	p1.__gt__(p2)
 # Greater than or equal to	p1 >= p2	p1.__ge__(p2)
+# 2+3 
+a=2
+b=5
+a.__add__(b)
