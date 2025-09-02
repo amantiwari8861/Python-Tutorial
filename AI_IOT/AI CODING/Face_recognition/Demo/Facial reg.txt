@@ -1,0 +1,11 @@
+Facial reg
+
+1. go to terminal 
+sudo apt update
+sudo apt install cmake
+
+2.check cmake
+cmake --version
+
+3. go to juyternotebook
+!pip install face_recognition
