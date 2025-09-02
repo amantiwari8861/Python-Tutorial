@@ -1,3 +1,94 @@
 .venv
 /pymongo/mongodbEnv
 /.venv
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+.ipynb_checkpoints/
+
+# -------------------------
+# Jupyter Notebooks
+# -------------------------
+.ipynb_checkpoints
+*.nbconvert.ipynb
+
+# -------------------------
+# Data Science / AI
+# -------------------------
+# Large datasets
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.db
+*.sqlite
+*.arrow
+
+# Model files
+*.pkl
+*.joblib
+*.sav
+*.pt
+*.pth
+*.onnx
+*.pb
+*.tflite
+*.keras
+*.ckpt*
+
+# TensorBoard / Logs
+logs/
+events.out.tfevents.*
+
+# -------------------------
+# IDE / Editor
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# OS files
+# -------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------
+# Others
+# -------------------------
+*.log
+*.tmp
+
+AI_IOT
