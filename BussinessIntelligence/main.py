@@ -1,14 +1,19 @@
 import pymysql
 from decimal import Decimal
+from tabulate import tabulate
+import csv
 
 # 🔹 Establish connection
-conn = pymysql.connect(
-    host="localhost",
-    user="root",
-    password="1234",
-    database="sampledatabase",
-)
-cursor = conn.cursor()
+try:
+    conn = pymysql.connect(
+        host="localhost",
+        user="root",
+        password="1234",
+        database="sampledatabase",
+    )
+except pymysql.MySQLError as e:
+    print(f"❌ Database connection failed: {e}")
+    exit()
 
 # 🔹 BI Queries
 queries = {
@@ -60,12 +65,35 @@ queries = {
 def run_query(choice):
     title, sql = queries[choice]
     print(f"\n📊 {title} 📊\n" + "-"*50)
-    cursor.execute(sql)
-    rows = cursor.fetchall()
-    for row in rows:
-        # Convert Decimal to float for display
-        display_row = tuple(float(x) if isinstance(x, Decimal) else x for x in row)
-        print(display_row)
+    try:
+        with conn.cursor() as cursor:
+            cursor.execute(sql)
+            rows = cursor.fetchall()
+
+            # Convert Decimal to float for display
+            display_rows = [
+                tuple(float(x) if isinstance(x, Decimal) else x for x in row)
+                for row in rows
+            ]
+
+            # Table headers
+            headers = [desc[0] for desc in cursor.description]
+
+            # Print as table
+            print(tabulate(display_rows, headers=headers, tablefmt="fancy_grid"))
+
+            # Ask to export to CSV
+            export = input("\nDo you want to export results to CSV? (y/n): ").lower()
+            if export == "y":
+                filename = title.replace(" ", "_") + ".csv"
+                with open(filename, "w", newline="") as f:
+                    writer = csv.writer(f)
+                    writer.writerow(headers)
+                    writer.writerows(display_rows)
+                print(f"✅ Results exported to {filename}")
+
+    except pymysql.MySQLError as e:
+        print(f"❌ Query failed: {e}")
 
 # 🔹 Menu Loop
 while True:
@@ -86,5 +114,4 @@ while True:
     except ValueError:
         print("❌ Please enter a number.")
 
-cursor.close()
 conn.close()
