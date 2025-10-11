@@ -18,7 +18,9 @@
 #         print("num = ",num)
 #         counting(num-1)
 
-# counting(10)
+# print("starting counting")
+# counting(10) 
+# print("counting finished")
 
 # def counting(num):
 #     if(num<=10):
@@ -31,8 +33,8 @@
 def counting(num):
     if(num<=10):
         print("num = ",num)
-        # if num==5:
-        #     return
+        if num==5:
+            return
         counting(num+1)
 
 counting(1)

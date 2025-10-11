@@ -18,7 +18,7 @@
 # num=int(value)  #ValueError
 
 	
-# num_list=[1,2,3,4]
+# num_list=[1,2,3,4] # IndexError: list index out of range
 # value=num_list[5]
 
 # avg=total/10 #where total is not defined

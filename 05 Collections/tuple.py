@@ -2,7 +2,7 @@
 #which is immutable and ordered and it can also store the duplicate elements and it is subscriptable
 
 # tup=()  #creating empty tuple
-# tup=tuple()  #creating empty tuple
+# tup=tuple()  #creating empty tuple using tuple constructor
 
 # row1=("Aman","abhishek","aman",10,56.78,"aman")
 
@@ -20,7 +20,7 @@
 
 # print(len(names))
 # print(n2+names)
-# # # # print("============================")
+# print("============================")
 # print(n2)
 # print(names)
 
@@ -31,16 +31,15 @@
 n2=("sumit 2.0","jatin 2.0")
 l1=["hemant","raghav"]
 # # tup4=n2+l1  # error can only concatenate tuple (not "list") to tuple
-# # tup4=(n2,l1)
+# tup4=(n2,l1)
 # # tup4=(n2,tuple(l1))
 tup4=(n2+tuple(l1))
 
 print(tup4)
 
-
 for e in tup4:
     print(e,end=" | ")
 
-# print()
+print()
 for i in range(len(tup4)):
     print(" at tup[",i,"]= ",tup4[i],sep="") 

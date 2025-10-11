@@ -1,3 +1,7 @@
+# File handling :
+# RAM -> volatile memory 
+# Hardisk -> non-volatile memory
+
 # file1=open("C:\\Users\\admin\\Desktop\\helloPy.txt","r")
 # str1=file1.read()
 # print(str1)
@@ -36,11 +40,11 @@
 # print(str1)
 
 
-file1=open("C:\\Users\\admin\\Desktop\\cleaner.bat","r")
-str1=file1.readlines()
-# print(str1)
+# file1=open("C:\\Users\\admin\\Desktop\\cleaner.bat","r")
+# str1=file1.readlines()
+# # print(str1)
 
-for i in range(len(str1)):
-    print(str1[i],end="")
+# for i in range(len(str1)):
+#     print(str1[i],end="")
 
-file1.close()
+# file1.close()
