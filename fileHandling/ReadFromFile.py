@@ -9,6 +9,7 @@
 # print("i will run after reading file")
 # print("i will run after reading file")
 # print("i will run after reading file")
+
 # file1=None
 # try:
 #     file1=open("C:\\Users\\admin\\Desktop\\helloPy.txt","r")

@@ -1,5 +1,5 @@
 # Open the file in 'a+' mode to read and append
-with open('file.txt', 'a+') as file:
+with open('fileHandling/Hello.txt', 'a+') as file:
     # Read the existing contents of the file
     file.seek(0)  # Move the file pointer to the beginning of the file
     contents = file.read()

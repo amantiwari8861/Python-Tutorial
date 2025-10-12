@@ -1,7 +1,7 @@
 from PIL import Image
 
 # Open an image file
-img = Image.open("image.jpg")
+img = Image.open("C:\\Users\\admin\\Desktop\\cc.jpg")
 
 # Display information about the image
 print("Image format:", img.format)
@@ -11,13 +11,24 @@ print("Image mode:", img.mode)
 # Show the image
 img.show()
 
-from PIL import Image
+# Binary
+# ASCII -> American standard code for information interchange 
+# A -> 65
+# B -> 66
+# Z -> 90
+# a -> 97
+# z -> 122
+# 0 -> 48
+# 9 -> 57
+# space -> 32
 
-# Open an image file
-img = Image.open("image.jpg")
+# from PIL import Image
 
-# Rotate the image by 90 degrees
-img_rotated = img.rotate(90)
+# # Open an image file
+# img = Image.open("image.jpg")
 
-# Save the rotated image to a new file
-img_rotated.save("image_rotated.jpg")
+# # Rotate the image by 90 degrees
+# img_rotated = img.rotate(90)
+
+# # Save the rotated image to a new file
+# img_rotated.save("image_rotated.jpg")
