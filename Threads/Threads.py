@@ -45,7 +45,6 @@
 # thread.join()
 
 
-
 import threading
 import requests
 
@@ -54,7 +53,7 @@ def download_url(url):
     print(f"Downloaded {url} with status code {response.status_code}")
 
 urls = [
-    "https://www.example.com",
+    "https://www.iamandroid.in",
     "https://www.python.org",
     "https://www.github.com"
 ]
